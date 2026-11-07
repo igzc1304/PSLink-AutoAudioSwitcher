@@ -2,7 +2,7 @@
 
 Automatic Windows playback-device switching for a **Sony PULSE Elite** connected with a **PlayStation Link USB adapter**.
 
-Turn the headset **on** and Windows selects *PlayStation Link Adapter*. Turn it **off** and Windows switches back to your chosen speakers. The USB dongle can remain plugged in. No Bluetooth fallback, replacement USB driver, or third-party audio switcher is required.
+Turn the headset **on** and Windows selects *PlayStation Link Adapter*. Turn it **off** and Windows switches back to your chosen default speakers. The USB dongle can remain plugged in. No Bluetooth fallback, replacement USB driver, or third-party audio switcher is required.
 
 > **Early community release / hardware-specific.** The detection logic was tested on **one** Sony USB adapter with USB ID **054C:0ECC** on Windows 11. Other adapter revisions (including **054C:0FA3**), headsets, Windows builds and audio configurations are **not tested or claimed to work**. The original monitor worked in an end-to-end manual test; the refactored public installer and configurable-device variant still need independent Windows testing. Review the code before enabling it.
 
